@@ -3,7 +3,8 @@ public class AirPollutionReader1 implements Runnable, Observer {
     private int sleepDuration;
     private boolean stop = false;
     private int num;
-    
+
+    private int pollution;
     public AirPollutionReader1(AirPollutionServer1 server, int num, int duration) {
         this.server = server;
         this.sleepDuration = duration;
@@ -15,7 +16,7 @@ public class AirPollutionReader1 implements Runnable, Observer {
     public void run() {
         while (!stop) {        
             try {
-                System.out.printf("readerNumber = %d, pollution = %d\n", num, server.getPollution());
+                System.out.printf("readerNumber = %d, pollution = %d\n", num, pollution);
                 Thread.sleep(sleepDuration); // sleepDuration밀리초 멈춤
             }
             catch (Exception e) {
@@ -27,7 +28,8 @@ public class AirPollutionReader1 implements Runnable, Observer {
     public void stopThread() { stop = true; }
 
     @Override
-    public void display(AirPollutionServer1 server){
-        System.out.printf("readerNumber = %d, pollution = %d\n", num, server.getPollution());
+    public void update(Object o){
+        o = Integer.parseInt(o.toString());
     }
+
 }

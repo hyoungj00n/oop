@@ -4,11 +4,14 @@ public class AirPollutionServer1 implements Runnable, Subject{
     private int pollution = 50;
     private boolean stop = false;
     private int sleepDuration;
+    ArrayList<Observer> readers = new ArrayList<>();
     public AirPollutionServer1(int duration) {
+
         sleepDuration = duration;
+        readers = new ArrayList<>();
     }
 
-    ArrayList<Observer> readers = new ArrayList<>();
+
 
     @Override
     public void run() {
@@ -25,6 +28,7 @@ public class AirPollutionServer1 implements Runnable, Subject{
                 }
             }
             System.out.printf("Server: pollution = %d\n", pollution);
+            notifyObserver(pollution);
             try {
                 Thread.sleep(sleepDuration); // sleepDuration밀리초 멈춤
             }
@@ -49,9 +53,9 @@ public class AirPollutionServer1 implements Runnable, Subject{
     }
 
     @Override
-    public void notifyObserver(){
-        for (Observer o : readers){
-            o.display(this);
+    public void notifyObserver(Observer o){
+        for (Observer obs : readers){
+            obs.update(o);
         }
     }
 }
