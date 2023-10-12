@@ -29,7 +29,7 @@ public class AirPollutionReader1 implements Runnable, Observer {
 
     @Override
     public void update(Object o){
-        o = Integer.parseInt(o.toString());
+        pollution = (Integer)o;
     }
 
 }

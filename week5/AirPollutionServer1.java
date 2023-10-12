@@ -4,11 +4,11 @@ public class AirPollutionServer1 implements Runnable, Subject{
     private int pollution = 50;
     private boolean stop = false;
     private int sleepDuration;
-    ArrayList<Observer> readers = new ArrayList<>();
+    ArrayList<Observer> readers;
     public AirPollutionServer1(int duration) {
 
         sleepDuration = duration;
-        readers = new ArrayList<>();
+        readers = new ArrayList<Observer>();
     }
 
 
@@ -53,7 +53,7 @@ public class AirPollutionServer1 implements Runnable, Subject{
     }
 
     @Override
-    public void notifyObserver(Observer o){
+    public void notifyObserver(Object o){
         for (Observer obs : readers){
             obs.update(o);
         }

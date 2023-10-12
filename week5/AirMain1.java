@@ -27,7 +27,7 @@ class AirMain1 {
         }
         // 미세먼지 농도 변경 쓰레드 종료
         server.stopThread();
-        server.notifyObserver(server);
+
         for (int i = 0; i < CLIENT_COUNT; i++) {
             readers[i].stopThread();
         }
