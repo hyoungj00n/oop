@@ -1,9 +1,15 @@
 import java.util.ArrayList;
+import java.util.Random;
 
 public class WeatherServer implements Subject,Runnable{
 
+
+    int temperature = new Random().nextInt(10)+10;
     ArrayList<Observer> array = new ArrayList<>();
 
+    public void changetemp(){
+        notifyObserver(temperature);
+    }
     @Override
     public void run(){
 
@@ -19,7 +25,7 @@ public class WeatherServer implements Subject,Runnable{
     }
 
     @Override
-    public void notifyObserver(Object ob){
+    public void notifyObserver(Object o){
         for (Observer obs: array){
             obs.update();
         }
