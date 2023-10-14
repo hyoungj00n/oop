@@ -15,7 +15,7 @@ public class WeatherReader1 implements Observer,Runnable{
     }
 
     @Override
-    public void update(){
-        System.out.println("온도:" + server.temperature);
+    public void update(Object o){
+
     }
 }
