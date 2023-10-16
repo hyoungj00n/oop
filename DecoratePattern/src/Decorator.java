@@ -1,6 +1,10 @@
-public abstract class Decorator implements ComponentI{
+public abstract class Decorator extends ComponentI{
 
-    public void operation(ComponentI componentI){
+    ComponentI componentI;
+
+
+    public void operation(){
         componentI.operation();
     }
+
 }
