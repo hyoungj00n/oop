@@ -1,16 +1,15 @@
 public class Cheese extends Decorate{
-    Pizza pizza;
 
-    public Cheese(Pizza pizza){
-        this.pizza = pizza;
-        this.pizza.name = "치즈";
+
+    public Cheese(AbstractPizza pizza){
+        super(pizza);
     }
 
-    public String getName(){
-        return pizza.name;
+    public String getDecoratorName(){
+        return "치즈" + pizza.getName();
     }
-    public int getPrice(){
-        return pizza.price+2000;
+    public int getDecoratorPrice(){
+        return 1000;
     }
 
 }
