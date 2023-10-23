@@ -1,24 +1,27 @@
-public class Triangle extends ShapeFactoryInterface{
+public class Triangle extends Shape{
 
-    MyRandom r = new MyRandom();
-    private int x1 = r.randInt(10,20);
-    private int x2 = r.randInt(10,20);
-    private int x3 = r.randInt(10,20);
-    private int y1 = r.randInt(10,20);
-    private int y2 = r.randInt(10,20);
-    private int y3 = r.randInt(10,20);
+    private String name;
 
-    public Triangle(String name, int min, int max){
+    private int x1, y1, x2, y2;
 
+    // Rectangle 클래스는 min~max 사이의 좌표값 두 개를 생성해서
+    // 왼쪽 상단 꼭지점을 지정하고, 너비와 높이가 30과 20인 사각형 생성
+    public Triangle(String name, int min, int max) {
+        this.name = name;
+        this.x1 = MyRandom.randInt(min, max);
+        this.y1 = MyRandom.randInt(min, max);
+        this.x2 = this.x1 + 30;
+        this.y2 = this.y1 + 20;
     }
-    Shape createShape(String type, int min, int max){
 
-    };
-
-    public void calcBounds(){
-
+    // 사각형의 바운딩 박스는 왼쪽 상단 좌표값과 오른쪽 하단 좌표값이 각각
+    // minX, minY, maxX, maxY로 지정된다.
+    public void calcBounds() {
+        setMinBoundsX(x1);
+        setMinBoundsY(y1);
+        setMaxBoundsX(x2);
+        setMaxBoundsY(y2);
     }
-    public String getShapeName(){
-        return "삼각형";
-    }
+
+    public String getShapeName() { return name; }
 }
