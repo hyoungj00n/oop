@@ -1,10 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        ISubject subject1 = new Subject1();
+        Weapon weapon = new Riple();
+        weapon.aim_and_fire();
+        Decorator scoped_riple = new Scoped(weapon);
 
-        subject1.registerObserver(new Observer1());
-
-        subject1.notifyObservers();
+        scoped_riple.aim_and_fire();
     }
 }
