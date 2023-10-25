@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa06078b-8c51-4fe2-b83d-6af24521e238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeFactoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShapeFactoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
-    </list>
+    <list default="true" id="aa06078b-8c51-4fe2-b83d-6af24521e238" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +57,7 @@
       <workItem from="1697120652105" duration="4364000" />
       <workItem from="1697357335539" duration="663000" />
       <workItem from="1698057807515" duration="3800000" />
+      <workItem from="1698158966325" duration="119000" />
     </task>
     <servers />
   </component>
