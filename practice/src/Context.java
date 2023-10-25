@@ -4,8 +4,8 @@ public class Context {
     int num2;
     IStrategy strategy;
 
-    Context(IStrategy strategy){
-        this.strategy=strategy;
+    void setStrategy(IStrategy strategy){
+        this.strategy = strategy;
     }
 
     public void doSomething(int a, int b){
