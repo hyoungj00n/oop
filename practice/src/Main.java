@@ -1,10 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        Weapon weapon = new Riple();
-        weapon.aim_and_fire();
-        Decorator scoped_riple = new Scoped(weapon);
+        AbstractFactory factory1 = new Factory1();
 
-        scoped_riple.aim_and_fire();
+        IProduct product = factory1.operate();
+        product.show();
+
     }
 }
