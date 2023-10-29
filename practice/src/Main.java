@@ -7,6 +7,6 @@ public class Main {
         Shape shape1 = shapefactory.createShape("Rectangle",10,20);
         Shape shape2 = shapefactory.createShape("Triangle",10,20);
 
-        System.out.println(shape1.getShapeName());
+        Group group = new Group("group1",shape1,shape2);
     }
 }
