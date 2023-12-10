@@ -7,5 +7,5 @@ public class Facade {
         db.insert(n,new Row(name));
     }
 
-    
+
 }
