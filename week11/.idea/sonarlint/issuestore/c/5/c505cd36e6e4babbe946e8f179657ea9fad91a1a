@@ -1,3 +1,6 @@
 
-]
-java:S2094"BRemove this empty class, write its code or make it an "interface".(éŠÂŒÿÿÿÿÿ
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(…˜²8ıª¢ÇÅ1
+J
+java:S11250"(Remove the unnecessary boolean literals.(Ñ²œıüÿÿÿÿ8Ã«¢ÇÅ1
+L	java:S106M"+Replace this use of System.out by a logger.(‡®ËÑÿÿÿÿÿ8Ó«¢ÇÅ1

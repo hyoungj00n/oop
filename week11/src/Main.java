@@ -16,11 +16,25 @@ public class Main {
         // Group을 생성하고 Rectangle g1_R1, g1_R2을 그룹에 추가
         // 그룹에 Triangle g1_T1, g1_T2를 추가,
         // 생성된 그룹을 ArrayList에 추가
-        Shape shape = new Shape();
+        ArrayList<Selectable> selectables = new ArrayList<>();
+
+        selectables.add(new Square("S1", coords, 0));
+
+
+
 
         // ArrayList에 있는 각 Selectable의 정보를 화면에 출력하고,
         // 좌표 (20, 20), (30, 30), (40, 40)이 BoundingBox애 포함되는지 출력
 
-        
+        for (Selectable s : selectables) {
+            System.out.println("");
+            s.print();
+            System.out.printf("%s is selected at (%d, %d): %s \n",
+                    s.getName(), 20, 20, s.isSelected(20, 20));
+            System.out.printf("%s is selected at (%d, %d): %s \n",
+                    s.getName(), 30, 30, s.isSelected(30, 30));
+            System.out.printf("%s is selected at (%d, %d): %s \n",
+                    s.getName(), 40, 40, s.isSelected(40, 40));
+        }
     }
 }

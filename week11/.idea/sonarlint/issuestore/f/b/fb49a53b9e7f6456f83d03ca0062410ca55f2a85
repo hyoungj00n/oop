@@ -1,6 +1,9 @@
 
-L
-java:S3740"/Provide the parametrized type for this generic.(’¬‹Ä8ÔñŒôÃ1
-L
-java:S3740"/Provide the parametrized type for this generic.(’¬‹Ä8ØñŒôÃ1
-v	java:S116"ZRename this field "ShapeComponents" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¬‹Ä8àñŒôÃ1
+[
+java:S5993"9Change the visibility of this constructor to "protected".(ìã»óıÿÿÿÿ8ÈÉëÆÅ1
+X	java:S125&"<This block of commented-out lines of code should be removed.(¶Í”8ÓÉëÆÅ1
+J
+java:S1125,"(Remove the unnecessary boolean literals.(”±‚©ûÿÿÿÿ8ÔÉëÆÅ1
+n
+java:S34572"Q%n should be used in place of \n to produce the platform-specific line separator.(ì€¬8ÙÉëÆÅ1
+G	java:S1062"+Replace this use of System.out by a logger.(ì€¬8ÚÉëÆÅ1

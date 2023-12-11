@@ -1,9 +1,8 @@
 
-[
-java:S1854"9Remove this useless assignment to local variable "shape".(×Û›øÿÿÿÿ8Ú›–ôÃ1
-W
-java:S1854":Remove this useless assignment to local variable "coords".(ôƒ´ú8İ›–ôÃ1
-H
-java:S1481"+Remove this unused "coords" local variable.(ôƒ´ú8á›–ôÃ1
-L
-java:S1481"*Remove this unused "shape" local variable.(×Û›øÿÿÿÿ8å›–ôÃ1
+~
+java:S1192 "aDefine a constant instead of duplicating this literal "%s is selected at (%d, %d): %s 
+" 3 times.(ºúıÌ8«¶œÇÅ1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8»¶œÇÅ1
+G	java:S106 "+Replace this use of System.out by a logger.(ºúıÌ8¾¶œÇÅ1
+G	java:S106""+Replace this use of System.out by a logger.(ºúıÌ8¿¶œÇÅ1
+G	java:S106$"+Replace this use of System.out by a logger.(ºúıÌ8Á¶œÇÅ1
