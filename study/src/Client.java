@@ -1,14 +1,24 @@
+import java.util.Iterator;
+
 public class Client {
     public static void main(String[] args) {
+        Board board = new Board();
 
-        Folder root = new Folder("root");
-        File node = new File("빈 폴더1",9);
-        File node2 = new File("빈 폴더2",9);
-        root.add(node);
-        root.add(node2);
+        board.add(new Post("깜찍이"));
+        board.add(new Post("예쁘당"));
+        board.add(new Post("귀엽당"));
+        board.add(new Post("사랑스럽당"));
 
-        root.print();
+        print(board.getListPostIterator());
 
 
+    }
+
+    public static void print(Iterator<Post> iterator) {
+        Iterator<Post> itr = iterator;
+        while (itr.hasNext()) {
+            Post post = itr.next();
+            System.out.println(post.title);
+        }
     }
 }
