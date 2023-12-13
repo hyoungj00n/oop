@@ -1,9 +1,11 @@
 public class Client {
+
     public static void main(String[] args) {
-        WeatherAPI api = new WeatherAPI();
 
-        api.registerObserver(new KoreanUser("joon"));
+        Weapon scoped_rifle = new Scoped(new BaseWeapon());
 
-        api.notifyObserver();
+        scoped_rifle.aim_and_fire();
+
+
     }
 }

@@ -23,3 +23,11 @@ C
 src/WeatherAPI.java,f/f/ff23cbfe3c77ff68d41f4831515e61520226651f
 C
 src/KoreanUser.java,3/4/341086741b3319644f7c85049743284d2982c6f7
+?
+src/Weapon.java,3/8/38b91cbf452e40cd56d582a0b1e9ab72865ce869
+C
+src/BaseWeapon.java,8/d/8d76e717c3522682ecb907466cdb5d98a04689b0
+H
+src/WeaponAccessory.java,f/0/f029135ed1faaafc18c42e058c80073ac077bfbc
+?
+src/Scoped.java,3/3/330a0109ee2d45020d14ea99052e8e7e99cf13fa
