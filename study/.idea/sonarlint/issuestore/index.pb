@@ -31,3 +31,15 @@ H
 src/WeaponAccessory.java,f/0/f029135ed1faaafc18c42e058c80073ac077bfbc
 ?
 src/Scoped.java,3/3/330a0109ee2d45020d14ea99052e8e7e99cf13fa
+@
+src/Service.java,0/6/0670695633cde995942650e6d44b3d79fa9a3aff
+G
+src/SortingMachine.java,e/c/ec747b6e0c1d4822cea292f90cf7aa6ea10a7f3d
+D
+src/ISortEngine.java,7/1/7153568ea3b803c892b7a7e4c2734df1896a144a
+J
+src/SortEngineAdapter.java,0/9/09268c1451ad5450aaa50c285b3e4cc8c5e02e49
+E
+src/B_SortEngine.java,c/a/cac62f4b89c1302c95c9ad44be69fab5ef134b3c
+E
+src/A_SortEngine.java,5/4/54e12fa30420c568e72678f14ac7d7281740336c
