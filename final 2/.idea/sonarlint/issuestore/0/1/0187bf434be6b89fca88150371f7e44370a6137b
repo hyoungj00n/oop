@@ -1,0 +1,17 @@
+
+5
+java:S1700"Rename field "word"(¶©õ®ûÿÿÿÿ8´¾¡µÆ1
+_
+java:S2259"BA "NullPointerException" could be thrown; "word" is nullable here.(û´÷–8Â¾¡µÆ1
+`
+java:S2583"CChange this condition so that it does not always evaluate to "true"(û´÷–8Â¾¡µÆ1
+[
+java:S3516"9Refactor this method to not always return the same value.(ùì‘Ùýÿÿÿÿ8Â¾¡µÆ1
+r
+java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ùì‘Ùýÿÿÿÿ8Ã¾¡µÆ1
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(û´÷–8Ë¾¡µÆ1
+b
+java:S1764"ECorrect one of the identical sub-expressions on both sides of equals.(û´÷–8Ì¾¡µÆ1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Ò¾¡µÆ1
